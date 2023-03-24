@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "textual_wifi"
+version = "0.4.0"
+description = "A wifi application build with textual and nmcli (py)"
+authors = ["Dmitrij Vinokour <vinokour.dmitrij@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.7,<4.0"
+textual = {extras = ["dev"], version = "^0.16.0"}
+nmcli = "^1.1.2"
+
+[tool.poetry.scripts]
+textual_wifi = "textual_wifi.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

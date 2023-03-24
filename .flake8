@@ -1,0 +1,11 @@
+[flake8]
+ignore = E712,E731,E501,W503,F403,E203,W605
+exclude =
+    .git,
+    __pycache__,
+    tests/conftest.py,
+    tests/fixtures/**,
+    build,
+    dist,
+    alembic/**
+    exceptions/__init__.py,

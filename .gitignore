@@ -1,0 +1,41 @@
+# GENERAL
+**/build/*
+
+# EDITOR
+.vscode
+.VSCodeCounter
+.idea
+.nvim
+.vimspector.json
+
+# PYTHON
+**/__pycache__
+**/*.pyc
+**/*.pyo
+**/.pytest_cache
+.hypothesis
+**/try.py
+**/celerybeat-schedule
+dist
+
+# NODE JS TS
+**/node_modules/**
+
+# CPP
+**/.ccls-cache
+doxygen
+compile-commands.json
+CMakeCache.txt
+CMakeFiles
+
+# SOLIDITY
+**/cache
+**/artifacts
+**/*coverage*
+**/@openzeppelin/*
+**/gasReporterOutput.json
+
+# DB
+**/*.db
+
+# SUBMODULES

@@ -1,0 +1,91 @@
+/* ListView { */
+/*     width: 25%; */
+/*     height: auto; */
+/*     margin: 1 1; */
+/* } */
+
+/* ListItem :hover { */
+/*     background: red; */
+/* } */
+
+/* ListItem { */
+/*     background: */
+/* } */
+
+Screen {
+    layout: vertical;
+    background: black;
+}
+
+Header {
+    color: red;
+    background: black;
+    height: 1;
+}
+
+Header.-tall {
+    height: 1;
+}
+
+Footer {
+    color: red;
+    background: black;
+
+    dock: bottom;
+    height: 1;
+}
+
+Footer > .footer--key {
+    text-style: bold;
+    background: #1c1d1f;
+}
+
+LoadingIndicator {
+    color: red;
+}
+
+WifiApp {
+    background: black;
+    content-align: center middle;
+}
+
+DataTable {
+    color: red;
+    background: black;
+}
+
+DataTable .datatable--header {
+    dock: top;
+    color: green;
+    background: black;
+    layer: below;
+}
+
+DataTable > .datatable--cursor {
+    color: black;
+    background: red;
+}
+
+Input {
+    background: black;
+    border: red;
+    color: red;
+
+    layer: above;
+    align: center middle;
+    margin-top: 30;
+    width: 50%;
+}
+
+Input>.input--cursor {
+    color: red;
+    text-style: reverse;
+}
+
+.hidden {
+    display: none;
+}
+
+.unhide-focused {
+    display: block;
+}
